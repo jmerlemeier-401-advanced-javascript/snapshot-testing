@@ -145,4 +145,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Lecture files
+lecture
+LECTURE.md
+
 # End of https://www.gitignore.io/api/vim,osx,node,linux,windows

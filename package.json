@@ -1,25 +1,17 @@
 {
-  "name": "snapshot-testing",
+  "name": "tests",
   "version": "1.0.0",
-  "description": "JS401 Lab 27",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "react-scripts test --env=jsDom",
-    "lint": "eslint ./src/**/*.js --fix",
-    "test:update": "react-scripts test --updateSnapshop",
+    "test": "react-scripts test --env=jsdom",
+    "lint": "eslint src/**/*.js",
+    "test:update": "react-scripts test --updateSnapshot",
     "start": "react-scripts start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jmerlemeier-401-advanced-javascript/snapshot-testing.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jmerlemeier-401-advanced-javascript/snapshot-testing/issues"
-  },
-  "homepage": "https://github.com/jmerlemeier-401-advanced-javascript/snapshot-testing#readme",
   "dependencies": {
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
@@ -27,5 +19,17 @@
     "react-dom": "^16.12.0",
     "react-scripts": "^3.2.0",
     "react-test-renderer": "^16.12.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
