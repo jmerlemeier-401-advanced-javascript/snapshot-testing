@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Enzyme, { shallow, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import Renderer from 'react-test-renderer';
@@ -23,7 +23,7 @@ describe('Testing our Counter Component - has State of 0 with Load.', () => {
 
   //Snapshot data
   it('Renders correctly', () => {
-    const renderTree = renderer.create(<Counter />).toJSON(); //snapshot library created rendertree
+    const renderTree = Renderer.create(<Counter />).toJSON(); //snapshot library created rendertree
     expect(renderTree).toMatchSnapshot();
   })
 

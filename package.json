@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "react-scripts test --env=jsDom",
+    "lint": "eslint ./src/**/*.js --fix",
     "test:update": "react-scripts test --updateSnapshop",
     "start": "react-scripts start"
   },
