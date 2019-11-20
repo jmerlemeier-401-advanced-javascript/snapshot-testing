@@ -9,7 +9,7 @@ Enzyme.configure({ adapter: new Adapter() });
 describe('Testing our Counter Component - has State of 0 with Load.', () => {
   it ('Counter state is initially 0', () => {
     let app = mount(<Counter />);
-    let button = app.find('button');
+    let button = app.find('.up');
     expect(app.state('count')).toBe(0);
   });
 

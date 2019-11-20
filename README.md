@@ -6,25 +6,16 @@
 
 ### Links and Resources
 * [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
+* [travis](https://www.travis-ci.com/jmerlemeier-401-advanced-javascript/snapshot-testing)
+* [AWS S3 Bucket](http://snapshot-testing27.s3-website-us-west-2.amazonaws.com/#)
 * [AWS Amplify](http://xyz.com)
-* [AWS S3 Bucket](http://xyz.com)
 * [Netlify](http://xyz.com)
 
 #### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
-
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
+* [Netlify](https://docs.netlify.com/?_ga=2.57866153.2017287062.1574207646-1424901283.1574207646)
+* [AWS S3 Bucket](https://docs.aws.amazon.com/s3/index.html)
+* [AWS Amplify](https://docs.aws.amazon.com/amplify/latest/userguide/one-click.html)
+* [SASS](https://sass-lang.com/)
 
 ### Setup
 #### `.env` requirements
