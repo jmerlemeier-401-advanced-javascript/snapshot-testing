@@ -4,7 +4,7 @@ class Header extends React.Component {
   render() {
     return (
       <header>
-        <h1>Counters R Fun</h1>
+        <h1>counters R fun</h1>
       </header>
     );
   }

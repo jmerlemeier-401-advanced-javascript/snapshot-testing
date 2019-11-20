@@ -5,10 +5,10 @@
 ### Author: Julie Erlemeier
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [submission PR](https://github.com/jmerlemeier-401-advanced-javascript/snapshot-testing/pull/3)
 * [travis](https://www.travis-ci.com/jmerlemeier-401-advanced-javascript/snapshot-testing)
 * [AWS S3 Bucket](http://snapshot-testing27.s3-website-us-west-2.amazonaws.com/#)
-* [AWS Amplify](http://xyz.com)
+* [AWS Amplify](https://deployment.d34ebk4wv8gprb.amplifyapp.com/)
 * [Netlify](https://wizardly-bassi-1fcb57.netlify.com/)
 
 #### Documentation
@@ -18,21 +18,16 @@
 * [SASS](https://sass-lang.com/)
 
 ### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* See `package.json` for dependencies
+* `npm install`
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
   
 #### Tests
 * How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+  * `npm run counter.test.js`
+  * `npm run lint`
 
 #### UML
-Link to an image of the UML for your application and response to events
+![UML](assets/uml_27.jpg)
