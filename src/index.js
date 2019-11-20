@@ -1,17 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Counter from './components/counter';
+import App from './app.js';
 
-class Root extends React.Component {
-  //render always retruns JSX.
-  //NEED render if using a class
+class Main extends React.Component {
   render() {
-    return(
-      <h1>Testy testerson</h1>
-    )
+    return <App />;
   }
 }
 
 const rootElement = document.getElementById('root');
-ReactDOM.render(<Root />, rootElement)
+ReactDOM.render(<Main />, rootElement);

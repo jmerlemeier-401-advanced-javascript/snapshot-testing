@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
+
+$font-stack: 'Major Mono Display', monospace;
+
+body {
+  font-family: $font-stack;
+  text-align: center;
+  padding: 12%;
+  
+  .down {
+    text-decoration: none;
+  }
+
+  .up {
+    text-decoration: none;
+  }
+
+  footer {
+    font-size: 0.5em;
+    padding: 3%;
+  }
+}
