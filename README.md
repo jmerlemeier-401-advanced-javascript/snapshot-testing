@@ -9,7 +9,7 @@
 * [travis](https://www.travis-ci.com/jmerlemeier-401-advanced-javascript/snapshot-testing)
 * [AWS S3 Bucket](http://snapshot-testing27.s3-website-us-west-2.amazonaws.com/#)
 * [AWS Amplify](http://xyz.com)
-* [Netlify](http://xyz.com)
+* [Netlify](https://wizardly-bassi-1fcb57.netlify.com/)
 
 #### Documentation
 * [Netlify](https://docs.netlify.com/?_ga=2.57866153.2017287062.1574207646-1424901283.1574207646)
